@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My website</title>
+    </head>
+    <body>
+        <a href="https://google.com"><button>Go away</button></a>
+        <table bgcolor="black">
+            <tr bgcolor="gray">
+                <th>apple</th>
+                <th>apple</th>
+                <th>apple</th>
+                <th>apple</th>
+                <th rowspan="3">ROW</th>
+            </tr>
+            <tr bgcolor="white">
+                <td>orange</td>
+                <td>orange</td>
+                <td>orange</td>
+                <td>orange</td>
+                
+            </tr>
+            <tr bgcolor="gray">
+                <td colspan="4" style="text-align: center;">lemon</td>
+            </tr>
+        </table><br>
+        <form action="action_page.php" method="GET">
+            <label for="fname">First Name: </label>
+            <input type="text" name="fname" placeholder="first name">
+            
+            <br>
+
+            <label for="lname">Last Name: </label>
+            <input type="text" name="lname" placeholder="last name">
+
+            <br>
+
+            <label for="pword">Password: </label>
+            <input type="password" name="pword">
+
+            <br>
+
+            <input type="date">
+
+            <label for="gender">Male: </label>
+            <input type="radio" name="gender">
+
+            <label for="gender">Female: </label>
+            <input type="radio" name="gender">
+
+            <input type="reset">
+
+            <input type="submit">
+        </form>
+    </body>
+</html>
